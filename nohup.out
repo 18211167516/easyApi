@@ -1,0 +1,67 @@
+PID :5368 not exist 
+  ______                          _____                              _
+ |  ____|                        / ____|                            | |
+ | |__      __ _   ___   _   _  | (___   __      __   ___     ___   | |   ___
+ |  __|    / _` | / __| | | | |  \___ \  \ \ /\ / /  / _ \   / _ \  | |  / _ \
+ | |____  | (_| | \__ \ | |_| |  ____) |  \ V  V /  | (_) | | (_) | | | |  __/
+ |______|  \__,_| |___/  \__, | |_____/    \_/\_/    \___/   \___/  |_|  \___|
+                          __/ |
+                         |___/
+[32mmain server                   [34mSWOOLE_WEB[0m
+[32mlisten address                [34m0.0.0.0[0m
+[32mlisten port                   [34m9508[0m
+[32msub server1                   [34mCONSOLE => SWOOLE_TCP@127.0.0.1:9500[0m
+[32mip@eth0                       [34m172.18.0.4[0m
+[32mworker_num                    [34m8[0m
+[32mtask_worker_num               [34m8[0m
+[32mreload_async                  [34m1[0m
+[32mtask_enable_coroutine         [34m1[0m
+[32mmax_wait_time                 [34m5[0m
+[32mpid_file                      [34m/var/www/html/easySwoole/Temp/pid.pid[0m
+[32mlog_file                      [34m/var/www/html/easySwoole/Log/swoole.log[0m
+[32mrun at user                   [34m[0m
+[32mdaemonize                     [34mfalse[0m
+[32mswoole version                [34m4.3.3[0m
+[32mphp version                   [34m7.2.15[0m
+[32measy swoole                   [34m3.2.1[0m
+[32mdevelop/produce               [34mdevelop[0m
+[32mtemp dir                      [34m/var/www/html/easySwoole/Temp[0m
+[32mlog dir                       [34m/var/www/html/easySwoole/Log[0m
+Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+[32mreloadType                    [34monly-task[0m
+send server reload command at 2019-04-29 17:07:59
+server stop at 2019-04-29 17:16:07
+  ______                          _____                              _
+ |  ____|                        / ____|                            | |
+ | |__      __ _   ___   _   _  | (___   __      __   ___     ___   | |   ___
+ |  __|    / _` | / __| | | | |  \___ \  \ \ /\ / /  / _ \   / _ \  | |  / _ \
+ | |____  | (_| | \__ \ | |_| |  ____) |  \ V  V /  | (_) | | (_) | | | |  __/
+ |______|  \__,_| |___/  \__, | |_____/    \_/\_/    \___/   \___/  |_|  \___|
+                          __/ |
+                         |___/
+[32mmain server                   [34mSWOOLE_WEB[0m
+[32mlisten address                [34m0.0.0.0[0m
+[32mlisten port                   [34m9508[0m
+[32msub server1                   [34mCONSOLE => SWOOLE_TCP@127.0.0.1:9500[0m
+[32mip@eth0                       [34m172.18.0.4[0m
+[32mworker_num                    [34m8[0m
+[32mtask_worker_num               [34m8[0m
+[32mreload_async                  [34m1[0m
+[32mtask_enable_coroutine         [34m1[0m
+[32mmax_wait_time                 [34m5[0m
+[32mpid_file                      [34m/var/www/html/easySwoole/Temp/pid.pid[0m
+[32mlog_file                      [34m/var/www/html/easySwoole/Log/swoole.log[0m
+[32mdaemonize                     [34m1[0m
+[32mrun at user                   [34m[0m
+[32mdaemonize                     [34mtrue[0m
+[32mswoole version                [34m4.3.3[0m
+[32mphp version                   [34m7.2.15[0m
+[32measy swoole                   [34m3.2.1[0m
+[32mdevelop/produce               [34mdevelop[0m
+[32mtemp dir                      [34m/var/www/html/easySwoole/Temp[0m
+[32mlog dir                       [34m/var/www/html/easySwoole/Log[0m
+Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+[32mreloadType                    [34mall-worker[0m
+send server reload command at 2019-04-29 17:16:12
