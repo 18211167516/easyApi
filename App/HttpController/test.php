@@ -3,7 +3,7 @@
 namespace App\HttpController;
 use EasySwoole\EasySwoole\Trigger;
 use EasySwoole\Http\AbstractInterface\Controller;
-class Test extends Controller
+class Test extends Base
 {
     function index()
     {

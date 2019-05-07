@@ -13,7 +13,7 @@ abstract class Base extends Controller
 {
     function index()
     {
-        $this->actionNotFound('index');
+//$this->actionNotFound('index');
         // TODO: Implement index() method.
     }
     protected function onRequest(?string $action): ?bool
@@ -30,6 +30,14 @@ abstract class Base extends Controller
     {
         //拦截错误进日志,使控制器继续运行
         Trigger::getInstance()->throwable($throwable);
+        var_dump($throwable->getMessage());
         $this->writeJson(Status::CODE_INTERNAL_SERVER_ERROR, null, $throwable->getMessage());
+    } 
+
+
+    protected function actionNotFound(?string $action): void
+    {
+        $this->response()->withStatus(Status::CODE_NOT_FOUND);
+        $this->response()->write('action not found');
     }
 }
