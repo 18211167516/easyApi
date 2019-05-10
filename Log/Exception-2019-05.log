@@ -21,3 +21,44 @@
 [2019-05-07 18:16:17][Exception][file:/var/www/html/easySwoole/App/HttpController/Router.php][line:27]Argument 1 passed to App\HttpController\Router::App\HttpController\{closure}() must be an instance of App\HttpController\Request, instance of EasySwoole\Http\Request given
 [2019-05-07 18:30:53][Exception][file:/var/www/html/easySwoole/App/HttpController/Router.php][line:26]Call to undefined method App\HttpController\Router::writeJson()
 [2019-05-07 18:31:44][Exception][file:/var/www/html/easySwoole/App/HttpController/Router.php][line:41]Call to undefined method App\HttpController\Router::response()
+[2019-05-10 16:14:56][Exception][file:/var/www/html/easySwoole/vendor/easyswoole/component/src/Pool/TraitInvoker.php][line:58]App\Utility\Pool\MysqlPool pool is empty
+[2019-05-10 16:15:39][Exception][file:/var/www/html/easySwoole/App/Utility/Pool/MysqlPool.php][line:16]swoole exit
+[2019-05-10 16:22:23][Exception][file:/var/www/html/easySwoole/App/HttpController/Index.php][line:9]Class 'App\HttpController\EasySwoole\Mysqli\Config' not found
+[2019-05-10 16:25:10][Exception][file:/var/www/html/easySwoole/App/HttpController/Index.php][line:9]Class 'App\HttpController\EasySwoole\Mysqli\Config' not found
+[2019-05-10 16:26:19][Exception][file:/var/www/html/easySwoole/App/HttpController/Index.php][line:7]syntax error, unexpected '{'
+[2019-05-10 16:27:16][Exception][file:/var/www/html/easySwoole/App/HttpController/Index.php][line:10]Class 'EasySwoole\Mysqli\Config' not found
+[2019-05-10 16:28:39][Exception][file:/var/www/html/easySwoole/App/HttpController/Index.php][line:10]Class 'EasySwoole\Mysqli\Config' not found
+[2019-05-10 16:30:58][Exception][file:/var/www/html/easySwoole/App/HttpController/Index.php][line:10]Class 'EasySwoole\Mysqli\Config' not found
+[2019-05-10 16:32:07][Exception][file:/var/www/html/easySwoole/App/HttpController/Index.php][line:10]Class 'EasySwoole\Mysqli\Config' not found
+[2019-05-10 16:32:19][Exception][file:/var/www/html/easySwoole/App/HttpController/Index.php][line:10]Class 'EasySwoole\Mysqli\Config' not found
+[2019-05-10 16:32:57][Exception][file:/var/www/html/easySwoole/App/HttpController/Index.php][line:10]Class 'App\HttpController\EasySwoole\Mysqli\Config' not found
+[2019-05-10 16:33:08][Exception][file:/var/www/html/easySwoole/App/HttpController/Index.php][line:10]Class 'EasySwoole\Mysqli\Config' not found
+[2019-05-10 16:36:28][Exception][file:/var/www/html/easySwoole/App/HttpController/Index.php][line:10]Class 'App\HttpController\Config' not found
+[2019-05-10 16:36:47][Exception][file:/var/www/html/easySwoole/App/HttpController/Index.php][line:10]Class 'EasySwoole\Mysqli\Config' not found
+[2019-05-10 16:51:40][Exception][file:/var/www/html/easySwoole/App/HttpController/Index.php][line:11]Class 'EasySwoole\Mysqli\Config' not found
+[2019-05-10 16:55:40][Exception][file:/var/www/html/easySwoole/App/HttpController/Index.php][line:11]Class 'EasySwoole\Mysqli\Config' not found
+[2019-05-10 17:02:20][Exception][file:/var/www/html/easySwoole/App/HttpController/index.php][line:11]Class 'EasySwoole\Mysqli\Config' not found
+[2019-05-10 17:02:24][Exception][file:/var/www/html/easySwoole/App/HttpController/index.php][line:11]Class 'EasySwoole\Mysqli\Config' not found
+[2019-05-10 17:02:24][Exception][file:/var/www/html/easySwoole/App/HttpController/index.php][line:11]Class 'EasySwoole\Mysqli\Config' not found
+[2019-05-10 17:02:25][Exception][file:/var/www/html/easySwoole/App/HttpController/index.php][line:11]Class 'EasySwoole\Mysqli\Config' not found
+[2019-05-10 17:02:25][Exception][file:/var/www/html/easySwoole/App/HttpController/index.php][line:11]Class 'EasySwoole\Mysqli\Config' not found
+[2019-05-10 17:02:25][Exception][file:/var/www/html/easySwoole/App/HttpController/index.php][line:11]Class 'EasySwoole\Mysqli\Config' not found
+[2019-05-10 17:02:25][Exception][file:/var/www/html/easySwoole/App/HttpController/index.php][line:11]Class 'EasySwoole\Mysqli\Config' not found
+[2019-05-10 17:02:56][Exception][file:/var/www/html/easySwoole/App/HttpController/index.php][line:11]Class 'EasySwoole\Mysqli\Config' not found
+[2019-05-10 17:03:39][Exception][file:/var/www/html/easySwoole/App/HttpController/index.php][line:11]Class 'EasySwoole\Mysqli\Config' not found
+[2019-05-10 17:03:50][Exception][file:/var/www/html/easySwoole/App/HttpController/index.php][line:11]Class 'EasySwoole\Mysqli\Config' not found
+[2019-05-10 17:04:51][Exception][file:/var/www/html/easySwoole/App/HttpController/index.php][line:11]Class 'EasySwoole\Mysqli\Config' not found
+[2019-05-10 17:04:52][Exception][file:/var/www/html/easySwoole/App/HttpController/index.php][line:11]Class 'EasySwoole\Mysqli\Config' not found
+[2019-05-10 17:04:53][Exception][file:/var/www/html/easySwoole/App/HttpController/index.php][line:11]Class 'EasySwoole\Mysqli\Config' not found
+[2019-05-10 17:04:53][Exception][file:/var/www/html/easySwoole/App/HttpController/index.php][line:11]Class 'EasySwoole\Mysqli\Config' not found
+[2019-05-10 17:04:54][Exception][file:/var/www/html/easySwoole/App/HttpController/index.php][line:11]Class 'EasySwoole\Mysqli\Config' not found
+[2019-05-10 17:04:54][Exception][file:/var/www/html/easySwoole/App/HttpController/index.php][line:11]Class 'EasySwoole\Mysqli\Config' not found
+[2019-05-10 17:25:06][Exception][file:/var/www/html/easySwoole/vendor/easyswoole/mysqli/src/Mysqli.php][line:117]connect to root@192.168.99.100 at port 3306 fail: 111 Connection refused
+[2019-05-10 17:26:09][Exception][file:/var/www/html/easySwoole/vendor/easyswoole/mysqli/src/Mysqli.php][line:117]connect to root@192.168.99.100 at port 3307 fail: 1045 #28000Access denied for user 'root'@'172.18.0.1' (using password: YES)
+[2019-05-10 17:31:35][Exception][file:/var/www/html/easySwoole/vendor/easyswoole/mysqli/src/Mysqli.php][line:1523]Table 'test.test' doesn't exist query: SELECT  * FROM test
+[2019-05-10 17:32:07][Exception][file:/var/www/html/easySwoole/vendor/easyswoole/mysqli/src/Mysqli.php][line:1523]Table 'test.test' doesn't exist query: SELECT  * FROM test
+[2019-05-10 18:15:20][Exception][file:/var/www/html/easySwoole/vendor/easyswoole/mysqli/src/Mysqli.php][line:106]HOST parameter is required
+[2019-05-10 18:18:16][Exception][file:/var/www/html/easySwoole/vendor/easyswoole/mysqli/src/Mysqli.php][line:106]HOST parameter is required
+[2019-05-10 18:22:59][Exception][file:/var/www/html/easySwoole/vendor/easyswoole/mysqli/src/Mysqli.php][line:106]HOST parameter is required
+[2019-05-10 18:24:22][Exception][file:/var/www/html/easySwoole/App/Model/BaseModel4.php][line:22]Return value of App\Model\BaseModel4::getDb() must be an instance of App\Utility\Pool\Mysql2Object, instance of App\Utility\Pool\MysqlObject returned
+[2019-05-10 18:26:47][Exception][file:/var/www/html/easySwoole/App/HttpController/test.php][line:16]Call to protected method App\Model\BaseModel4::getDb() from context 'App\HttpController\Test'

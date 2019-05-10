@@ -84,7 +84,7 @@ abstract class AbstractProcess
                     $this->onException($throwable);
                 }
                 swoole_event_del($process->pipe);
-                Process::signal(SIGTERM,null);
+                Process::signal(SIGTERM,null);//移除信号监听
                 $old = iterator_to_array(\co::listCoroutines());
                 $diff = array_diff($old,$new);
                 if(empty($diff)){
@@ -115,6 +115,7 @@ abstract class AbstractProcess
             $msg = $this->swooleProcess->read(64 * 1024);
             $this->onReceive($msg);
         });
+
         try{
             $this->run($this->arg);
         }catch (\Throwable $throwable){

@@ -7,3 +7,71 @@
 [2019-05-07 18:19:15][FatalError][file:/var/www/html/easySwoole/App/HttpController/Test.php][line:17]test error
 [2019-05-07 18:19:16][FatalError][file:/var/www/html/easySwoole/App/HttpController/Test.php][line:17]test error
 [2019-05-07 18:21:58][FatalError][file:/var/www/html/easySwoole/App/HttpController/Test.php][line:17]test error
+[2019-05-08 17:03:47][FatalError][file:/var/www/html/easySwoole/EasySwooleEvent.php][line:31]Uncaught Error: Call to undefined method App\Process\Process::write() in /var/www/html/easySwoole/EasySwooleEvent.php:31
+Stack trace:
+#0 /var/www/html/easySwoole/vendor/easyswoole/easyswoole/src/Core.php(123): EasySwoole\EasySwoole\EasySwooleEvent::mainServerCreate(Object(EasySwoole\EasySwoole\Swoole\EventRegister))
+#1 /var/www/html/easySwoole/vendor/easyswoole/easyswoole/src/Command/DefaultCommand/Start.php(42): EasySwoole\EasySwoole\Core->createServer()
+#2 /var/www/html/easySwoole/vendor/easyswoole/easyswoole/src/Command/CommandContainer.php(44): EasySwoole\EasySwoole\Command\DefaultCommand\Start->exec(Array)
+#3 /var/www/html/easySwoole/vendor/easyswoole/easyswoole/src/Command/CommandRunner.php(52): EasySwoole\EasySwoole\Command\CommandContainer->hook('start', Array)
+#4 /var/www/html/easySwoole/easyswoole(20): EasySwoole\EasySwoole\Command\CommandRunner->run(Array)
+#5 {main}
+  thrown
+[2019-05-08 17:09:03][FatalError][file:/var/www/html/easySwoole/EasySwooleEvent.php][line:35]Uncaught Error: Class 'EasySwoole\EasySwoole\Swoole\Timer' not found in /var/www/html/easySwoole/EasySwooleEvent.php:35
+Stack trace:
+#0 /var/www/html/easySwoole/vendor/easyswoole/easyswoole/src/Core.php(123): EasySwoole\EasySwoole\EasySwooleEvent::mainServerCreate(Object(EasySwoole\EasySwoole\Swoole\EventRegister))
+#1 /var/www/html/easySwoole/vendor/easyswoole/easyswoole/src/Command/DefaultCommand/Start.php(42): EasySwoole\EasySwoole\Core->createServer()
+#2 /var/www/html/easySwoole/vendor/easyswoole/easyswoole/src/Command/CommandContainer.php(44): EasySwoole\EasySwoole\Command\DefaultCommand\Start->exec(Array)
+#3 /var/www/html/easySwoole/vendor/easyswoole/easyswoole/src/Command/CommandRunner.php(52): EasySwoole\EasySwoole\Command\CommandContainer->hook('start', Array)
+#4 /var/www/html/easySwoole/easyswoole(20): EasySwoole\EasySwoole\Command\CommandRunner->run(Array)
+#5 {main}
+  thrown
+[2019-05-08 18:24:35][FatalError][file:/var/www/html/easySwoole/vendor/easyswoole/component/src/Process/AbstractProcess.php][line:126]syntax error, unexpected 'try' (T_TRY)
+[2019-05-08 18:43:52][FatalError][file:/var/www/html/easySwoole/EasySwooleEvent.php][line:32]Uncaught Error: Class 'App\Process\Task' not found in /var/www/html/easySwoole/EasySwooleEvent.php:32
+Stack trace:
+#0 /var/www/html/easySwoole/vendor/easyswoole/easyswoole/src/Core.php(123): EasySwoole\EasySwoole\EasySwooleEvent::mainServerCreate(Object(EasySwoole\EasySwoole\Swoole\EventRegister))
+#1 /var/www/html/easySwoole/vendor/easyswoole/easyswoole/src/Command/DefaultCommand/Start.php(42): EasySwoole\EasySwoole\Core->createServer()
+#2 /var/www/html/easySwoole/vendor/easyswoole/easyswoole/src/Command/CommandContainer.php(44): EasySwoole\EasySwoole\Command\DefaultCommand\Start->exec(Array)
+#3 /var/www/html/easySwoole/vendor/easyswoole/easyswoole/src/Command/CommandRunner.php(52): EasySwoole\EasySwoole\Command\CommandContainer->hook('start', Array)
+#4 /var/www/html/easySwoole/easyswoole(20): EasySwoole\EasySwoole\Command\CommandRunner->run(Array)
+#5 {main}
+  thrown
+[2019-05-08 18:57:40][FatalError][file:/var/www/html/easySwoole/vendor/easyswoole/easyswoole/src/Crontab/Crontab.php][line:45]Uncaught InvalidArgumentException: the cron task class TaskOne is invalid in /var/www/html/easySwoole/vendor/easyswoole/easyswoole/src/Crontab/Crontab.php:45
+Stack trace:
+#0 /var/www/html/easySwoole/EasySwooleEvent.php(34): EasySwoole\EasySwoole\Crontab\Crontab->addTask('TaskOne')
+#1 /var/www/html/easySwoole/vendor/easyswoole/easyswoole/src/Core.php(123): EasySwoole\EasySwoole\EasySwooleEvent::mainServerCreate(Object(EasySwoole\EasySwoole\Swoole\EventRegister))
+#2 /var/www/html/easySwoole/vendor/easyswoole/easyswoole/src/Command/DefaultCommand/Start.php(42): EasySwoole\EasySwoole\Core->createServer()
+#3 /var/www/html/easySwoole/vendor/easyswoole/easyswoole/src/Command/CommandContainer.php(44): EasySwoole\EasySwoole\Command\DefaultCommand\Start->exec(Array)
+#4 /var/www/html/easySwoole/vendor/easyswoole/easyswoole/src/Command/CommandRunner.php(52): EasySwoole\EasySwoole\Command\CommandContainer->hook('start', Array)
+#5 /var/www/html/easySwoole/easyswoole(20): EasySwoole\EasySwoole\Command\CommandRunner->run(Arr
+[2019-05-09 19:04:07][FatalError][file:/var/www/html/easySwoole/vendor/easyswoole/easyswoole/src/ServerManager.php][line:63]"unknown server type :{$type}"
+[2019-05-09 19:04:07][FatalError][file:/var/www/html/easySwoole/vendor/easyswoole/easyswoole/src/Core.php][line:221]Uncaught TypeError: Argument 1 passed to EasySwoole\EasySwoole\Core::registerDefaultCallBack() must be an instance of Swoole\Server, null given, called in /var/www/html/easySwoole/vendor/easyswoole/easyswoole/src/Core.php on line 121 and defined in /var/www/html/easySwoole/vendor/easyswoole/easyswoole/src/Core.php:221
+Stack trace:
+#0 /var/www/html/easySwoole/vendor/easyswoole/easyswoole/src/Core.php(121): EasySwoole\EasySwoole\Core->registerDefaultCallBack(NULL, NULL)
+#1 /var/www/html/easySwoole/vendor/easyswoole/easyswoole/src/Command/DefaultCommand/Start.php(42): EasySwoole\EasySwoole\Core->createServer()
+#2 /var/www/html/easySwoole/vendor/easyswoole/easyswoole/src/Command/CommandContainer.php(44): EasySwoole\EasySwoole\Command\DefaultCommand\Start->exec(Array)
+#3 /var/www/html/easySwoole/vendor/easyswoole/easyswoole/src/Command/CommandRunner.php(52): EasySwoole\EasySwoole\Command\CommandContainer->hook('start', Array)
+#4 /var/www/html/easySwoole/easyswoole(20): EasySwoole\EasySwoole\Command\CommandRunner->
+[2019-05-09 19:04:49][FatalError][file:/var/www/html/easySwoole/vendor/easyswoole/easyswoole/src/ServerManager.php][line:63]"unknown server type :{$type}"
+[2019-05-09 19:04:49][FatalError][file:/var/www/html/easySwoole/vendor/easyswoole/easyswoole/src/Core.php][line:221]Uncaught TypeError: Argument 1 passed to EasySwoole\EasySwoole\Core::registerDefaultCallBack() must be an instance of Swoole\Server, null given, called in /var/www/html/easySwoole/vendor/easyswoole/easyswoole/src/Core.php on line 121 and defined in /var/www/html/easySwoole/vendor/easyswoole/easyswoole/src/Core.php:221
+Stack trace:
+#0 /var/www/html/easySwoole/vendor/easyswoole/easyswoole/src/Core.php(121): EasySwoole\EasySwoole\Core->registerDefaultCallBack(NULL, NULL)
+#1 /var/www/html/easySwoole/vendor/easyswoole/easyswoole/src/Command/DefaultCommand/Start.php(42): EasySwoole\EasySwoole\Core->createServer()
+#2 /var/www/html/easySwoole/vendor/easyswoole/easyswoole/src/Command/CommandContainer.php(44): EasySwoole\EasySwoole\Command\DefaultCommand\Start->exec(Array)
+#3 /var/www/html/easySwoole/vendor/easyswoole/easyswoole/src/Command/CommandRunner.php(52): EasySwoole\EasySwoole\Command\CommandContainer->hook('start', Array)
+#4 /var/www/html/easySwoole/easyswoole(20): EasySwoole\EasySwoole\Command\CommandRunner->
+[2019-05-09 19:05:25][FatalError][file:/var/www/html/easySwoole/vendor/easyswoole/easyswoole/src/ServerManager.php][line:63]"unknown server type :{$type}"
+[2019-05-09 19:05:26][FatalError][file:/var/www/html/easySwoole/vendor/easyswoole/easyswoole/src/Core.php][line:221]Uncaught TypeError: Argument 1 passed to EasySwoole\EasySwoole\Core::registerDefaultCallBack() must be an instance of Swoole\Server, null given, called in /var/www/html/easySwoole/vendor/easyswoole/easyswoole/src/Core.php on line 121 and defined in /var/www/html/easySwoole/vendor/easyswoole/easyswoole/src/Core.php:221
+Stack trace:
+#0 /var/www/html/easySwoole/vendor/easyswoole/easyswoole/src/Core.php(121): EasySwoole\EasySwoole\Core->registerDefaultCallBack(NULL, NULL)
+#1 /var/www/html/easySwoole/vendor/easyswoole/easyswoole/src/Command/DefaultCommand/Start.php(42): EasySwoole\EasySwoole\Core->createServer()
+#2 /var/www/html/easySwoole/vendor/easyswoole/easyswoole/src/Command/CommandContainer.php(44): EasySwoole\EasySwoole\Command\DefaultCommand\Start->exec(Array)
+#3 /var/www/html/easySwoole/vendor/easyswoole/easyswoole/src/Command/CommandRunner.php(52): EasySwoole\EasySwoole\Command\CommandContainer->hook('start', Array)
+#4 /var/www/html/easySwoole/easyswoole(20): EasySwoole\EasySwoole\Command\CommandRunner->
+[2019-05-09 19:05:38][FatalError][file:/var/www/html/easySwoole/vendor/easyswoole/easyswoole/src/ServerManager.php][line:63]"unknown server type :{$type}"
+[2019-05-09 19:05:39][FatalError][file:/var/www/html/easySwoole/vendor/easyswoole/easyswoole/src/Core.php][line:221]Uncaught TypeError: Argument 1 passed to EasySwoole\EasySwoole\Core::registerDefaultCallBack() must be an instance of Swoole\Server, null given, called in /var/www/html/easySwoole/vendor/easyswoole/easyswoole/src/Core.php on line 121 and defined in /var/www/html/easySwoole/vendor/easyswoole/easyswoole/src/Core.php:221
+Stack trace:
+#0 /var/www/html/easySwoole/vendor/easyswoole/easyswoole/src/Core.php(121): EasySwoole\EasySwoole\Core->registerDefaultCallBack(NULL, NULL)
+#1 /var/www/html/easySwoole/vendor/easyswoole/easyswoole/src/Command/DefaultCommand/Start.php(42): EasySwoole\EasySwoole\Core->createServer()
+#2 /var/www/html/easySwoole/vendor/easyswoole/easyswoole/src/Command/CommandContainer.php(44): EasySwoole\EasySwoole\Command\DefaultCommand\Start->exec(Array)
+#3 /var/www/html/easySwoole/vendor/easyswoole/easyswoole/src/Command/CommandRunner.php(52): EasySwoole\EasySwoole\Command\CommandContainer->hook('start', Array)
+#4 /var/www/html/easySwoole/easyswoole(20): EasySwoole\EasySwoole\Command\CommandRunner->
