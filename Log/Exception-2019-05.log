@@ -62,3 +62,24 @@
 [2019-05-10 18:22:59][Exception][file:/var/www/html/easySwoole/vendor/easyswoole/mysqli/src/Mysqli.php][line:106]HOST parameter is required
 [2019-05-10 18:24:22][Exception][file:/var/www/html/easySwoole/App/Model/BaseModel4.php][line:22]Return value of App\Model\BaseModel4::getDb() must be an instance of App\Utility\Pool\Mysql2Object, instance of App\Utility\Pool\MysqlObject returned
 [2019-05-10 18:26:47][Exception][file:/var/www/html/easySwoole/App/HttpController/test.php][line:16]Call to protected method App\Model\BaseModel4::getDb() from context 'App\HttpController\Test'
+[2019-05-16 10:16:03][Exception][file:/var/www/html/easySwoole/App/HttpController/test.php][line:13]Class 'App\HttpController\BaseModel' not found
+[2019-05-16 10:16:57][Exception][file:/var/www/html/easySwoole/App/HttpController/test.php][line:13]Class 'App\HttpController\BaseModel' not found
+[2019-05-16 11:27:51][Exception][file:/var/www/html/easySwoole/vendor/easyswoole/mysqli/src/Mysqli.php][line:117]connect to root@192.168.99.100 at port 3307 fail: 1040 Too many connections
+[2019-05-16 11:27:52][Exception][file:/var/www/html/easySwoole/vendor/easyswoole/mysqli/src/Mysqli.php][line:117]connect to root@192.168.99.100 at port 3307 fail: 1040 Too many connections
+[2019-05-16 11:27:52][Exception][file:/var/www/html/easySwoole/vendor/easyswoole/mysqli/src/Mysqli.php][line:117]connect to root@192.168.99.100 at port 3307 fail: 1040 Too many connections
+[2019-05-16 11:27:56][Exception][file:/var/www/html/easySwoole/App/Model/BaseModel.php][line:21]Return value of App\Model\BaseModel::getDb() must be an instance of App\Utility\Pool\MysqlObject, null returned
+[2019-05-16 11:27:56][Exception][file:/var/www/html/easySwoole/vendor/easyswoole/mysqli/src/Mysqli.php][line:117]connect to root@192.168.99.100 at port 3307 fail: 1040 Too many connections
+[2019-05-16 11:27:56][Exception][file:/var/www/html/easySwoole/vendor/easyswoole/mysqli/src/Mysqli.php][line:117]connect to root@192.168.99.100 at port 3307 fail: 1040 Too many connections
+[2019-05-16 11:27:57][Exception][file:/var/www/html/easySwoole/vendor/easyswoole/mysqli/src/Mysqli.php][line:117]connect to root@192.168.99.100 at port 3307 fail: 1040 Too many connections
+[2019-05-16 11:27:57][Exception][file:/var/www/html/easySwoole/vendor/easyswoole/mysqli/src/Mysqli.php][line:117]connect to root@192.168.99.100 at port 3307 fail: 1040 Too many connections
+[2019-05-16 11:27:57][Exception][file:/var/www/html/easySwoole/vendor/easyswoole/mysqli/src/Mysqli.php][line:117]connect to root@192.168.99.100 at port 3307 fail: 1040 Too many connections
+[2019-05-16 11:27:57][Exception][file:/var/www/html/easySwoole/vendor/easyswoole/mysqli/src/Mysqli.php][line:117]connect to root@192.168.99.100 at port 3307 fail: 1040 Too many connections
+[2019-05-16 11:27:57][Exception][file:/var/www/html/easySwoole/App/Model/BaseModel.php][line:21]Return value of App\Model\BaseModel::getDb() must be an instance of App\Utility\Pool\MysqlObject, null returned
+[2019-05-16 11:27:57][Exception][file:/var/www/html/easySwoole/App/Model/BaseModel.php][line:21]Return value of App\Model\BaseModel::getDb() must be an instance of App\Utility\Pool\MysqlObject, null returned
+[2019-05-16 11:27:58][Exception][file:/var/www/html/easySwoole/vendor/easyswoole/mysqli/src/Mysqli.php][line:117]connect to root@192.168.99.100 at port 3307 fail: 1040 Too many connections
+[2019-05-16 11:27:58][Exception][file:/var/www/html/easySwoole/vendor/easyswoole/mysqli/src/Mysqli.php][line:117]connect to root@192.168.99.100 at port 3307 fail: 1040 Too many connections
+[2019-05-16 11:27:58][Exception][file:/var/www/html/easySwoole/vendor/easyswoole/mysqli/src/Mysqli.php][line:117]connect to root@192.168.99.100 at port 3307 fail: 1040 Too many connections
+[2019-05-16 11:27:58][Exception][file:/var/www/html/easySwoole/vendor/easyswoole/mysqli/src/Mysqli.php][line:117]connect to root@192.168.99.100 at port 3307 fail: 1040 Too many connections
+[2019-05-16 16:53:10][Exception][file:/var/www/html/easySwoole/App/HttpController/test.php][line:27]Call to undefined method App\Utility\Pool\RedisPool::get()
+[2019-05-16 16:54:40][Exception][file:/var/www/html/easySwoole/vendor/easyswoole/http/src/Response.php][line:76]Argument 1 passed to EasySwoole\Http\Response::write() must be of the type string, null given, called in /var/www/html/easySwoole/App/HttpController/test.php on line 28
+[2019-05-16 16:59:00][Exception][file:/var/www/html/easySwoole/App/HttpController/test.php][line:38]Call to a member function get() on null

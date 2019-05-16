@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "edc4fdf4b9c44d3b5a6fb8a871a69911",
+    "content-hash": "f0b370fc38a75df9ef380d8ff988fe36",
     "packages": [
         {
             "name": "doctrine/instantiator",
@@ -372,6 +372,58 @@
                 "swoole"
             ],
             "time": "2019-04-27T07:46:19+00:00"
+        },
+        {
+            "name": "easyswoole/rpc",
+            "version": "3.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/easy-swoole/rpc.git",
+                "reference": "1aff53b0524284291eee60ae261c9539f9a0b61f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/easy-swoole/rpc/zipball/1aff53b0524284291eee60ae261c9539f9a0b61f",
+                "reference": "1aff53b0524284291eee60ae261c9539f9a0b61f",
+                "shasum": ""
+            },
+            "require": {
+                "easyswoole/component": "^1.5",
+                "easyswoole/spl": "^1.0",
+                "easyswoole/utility": "^1.0",
+                "ext-json": ">=1.0",
+                "ext-openssl": ">=7.1",
+                "ext-swoole": ">=4.3.0",
+                "php": ">=7.1.0"
+            },
+            "require-dev": {
+                "easyswoole/swoole-ide-helper": "^1.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "EasySwoole\\Rpc\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "YF",
+                    "email": "291323003@qq.com"
+                }
+            ],
+            "description": "An efficient swoole framework",
+            "homepage": "https://www.easyswoole.com/",
+            "keywords": [
+                "async",
+                "easyswoole",
+                "framework",
+                "swoole"
+            ],
+            "time": "2019-03-04T14:11:45+00:00"
         },
         {
             "name": "easyswoole/socket",

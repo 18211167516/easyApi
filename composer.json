@@ -1,11 +1,13 @@
 {
     "require": {
         "easyswoole/easyswoole": "3.x",
-        "easyswoole/mysqli": "^1.1"
+        "easyswoole/mysqli": "^1.1",
+        "easyswoole/rpc": "3.x"
     },
     "autoload": {
         "psr-4": {
-            "App\\": "App/"
+            "App\\": "App/",
+            "EasySwoole\\":"vendor/easyswoole/"
         }
     }
 }

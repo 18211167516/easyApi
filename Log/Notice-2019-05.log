@@ -103,3 +103,6 @@
 [2019-05-10 18:08:57][Notice][file:/var/www/html/easySwoole/App/Utility/Pool/MysqlPool.php][line:18]Undefined variable: conf
 [2019-05-10 18:08:57][Notice][file:/var/www/html/easySwoole/App/Utility/Pool/MysqlPool.php][line:18]Undefined variable: conf
 [2019-05-10 18:08:57][Notice][file:/var/www/html/easySwoole/App/Utility/Pool/MysqlPool.php][line:18]Undefined variable: conf
+[2019-05-16 16:45:15][Notice][file:/var/www/html/easySwoole/App/HttpController/test.php][line:26]Undefined variable: res
+[2019-05-16 16:45:35][Notice][file:/var/www/html/easySwoole/App/HttpController/test.php][line:26]Undefined variable: res
+[2019-05-16 16:59:00][Notice][file:/var/www/html/easySwoole/App/HttpController/test.php][line:38]Undefined variable: cn

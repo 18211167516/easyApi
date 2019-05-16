@@ -39,12 +39,12 @@ class EasySwooleEvent implements Event
         ServerManager::getInstance()->getSwooleServer()->addProcess($myProcess->getProcess());
          // 开始一个定时任务计划 
         Crontab::getInstance()->addTask(TaskOne::class);
-        $register->add($register::onWorkerStart, function (\swoole_server $server, int $workerId) {
+        /* $register->add($register::onWorkerStart, function (\swoole_server $server, int $workerId) {
             if ($server->taskworker == false) {
                 //每个worker进程都预创建连接
                 PoolManager::getInstance()->getPool(MysqlPool::class)->preLoad(10);//最小创建数量
             }
-        });
+        }); */
         //ServerManager::getInstance()->getSwooleServer()->addProcess((new Task('processTest'))->getProcess());
     }
 

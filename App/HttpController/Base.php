@@ -20,10 +20,10 @@ abstract class Base extends Controller
     {
         //模拟拦截
         //当没有传code的时候则拦截
-        if (empty($this->request()->getRequestParam('code'))) {
+        /* if (empty($this->request()->getRequestParam('code'))) {
             $this->writeJson(Status::CODE_BAD_REQUEST, ['errorCode' => 1, 'data' => []], 'code不存在');
             return false;
-        }
+        } */
         return true;
     }
     protected function onException(\Throwable $throwable): void
