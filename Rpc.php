@@ -13,9 +13,9 @@ $config = new Config();
 $config->setServiceName('ser1');
 $config->setSerializeType(1);
 //设置广播地址，可以多个地址
-$config->getAutoFindConfig()->setAutoFindBroadcastAddress(['0.0.0.0:80']);
+//$config->getAutoFindConfig()->setAutoFindBroadcastAddress(['0.0.0.0:80']);
 //设置广播监听地址
-$config->getAutoFindConfig()->setAutoFindListenAddress('0.0.0.0:80');
+//s$config->getAutoFindConfig()->setAutoFindListenAddress('0.0.0.0:80');
 //$config->setNodeManager(\EasySwoole\Rpc\NodeManager\TableManager::class);//设置节点管理器处理类,默认是EasySwoole\Rpc\NodeManager\FileManager
 
 $rpc = new Rpc($config);
@@ -29,7 +29,7 @@ $rpc->registerAction('call1', function (Request $request, Response $response) {
 
 //监听/广播 rpc 自定义进程对象
 $autoFindProcess = $rpc->autoFindProcess('es_rpc_process_1');
-$tcp = new swoole_server('0.0.0.0', 9508);
+$tcp = new swoole_server('0.0.0.0', 9503);
 $tcp->addProcess($autoFindProcess->getProcess());
 $rpc->attachToServer($tcp);
 $tcp->start();

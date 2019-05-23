@@ -1,2 +1,9 @@
 y
 y.pub
+Temp/pid.pid
+Log/swoole.log
+Log/Warning-2019-05.log
+Log/Notice-2019-05.log
+Log/FatalError-2019-05.log
+Log/Exception-2019-05.log
+Log/Exception-2019-05.log

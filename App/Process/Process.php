@@ -4,7 +4,10 @@ use App\Task\ProcessTest;
 use EasySwoole\Component\Process\AbstractProcess;
 use EasySwoole\EasySwoole\Logger;
 use EasySwoole\EasySwoole\Swoole\Task\TaskManager;
-
+use EasySwoole\Rpc\Config;
+use EasySwoole\Rpc\Rpc;
+use EasySwoole\Rpc\Request;
+use EasySwoole\Rpc\Response;
 
 class Process extends AbstractProcess{
     /* public function run($arg)
@@ -17,12 +20,12 @@ class Process extends AbstractProcess{
     {
         echo "自定义进程开启\n";
 // 直接投递闭包
-        TaskManager::processAsync(function () {
-            echo "自定义进程 异步任务执行中 \n";
-        });
+        //TaskManager::processAsync(function () {
+          //  echo "自定义进程 异步任务执行中 \n";
+        //});
         // 投递任务类
-        $taskClass = new ProcessTest('task data');
-        TaskManager::processAsync($taskClass);
+        //$taskClass = new ProcessTest('task data');
+        //TaskManager::processAsync($taskClass);
         // TODO: Implement run() method.
     }
 
@@ -40,7 +43,7 @@ class Process extends AbstractProcess{
 
     public function onReceive(string $str)
     {
-        Logger::getInstance()->console($this->getProcessName()." get ".$str);
+        //Logger::getInstance()->console($this->getProcessName()." get ".$str);
         // TODO: Implement onReceive() method.
     }
 }

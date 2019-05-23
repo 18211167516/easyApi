@@ -35,10 +35,35 @@ class EasySwooleEvent implements Event
     public static function mainServerCreate(EventRegister $register)
     {
         // TODO: Implement mainServerCreate() method.
-        $myProcess = new Process("ProcessBai",time(),false,2,true);
-        ServerManager::getInstance()->getSwooleServer()->addProcess($myProcess->getProcess());
+        //$myProcess = new Process("ProcessBai",time(),false,2,true);
+        //ServerManager::getInstance()->getSwooleServer()->addProcess($myProcess->getProcess());
+
+        $rpcConfig = new \EasySwoole\Rpc\Config();
+        $rpcConfig->setSerializeType(1);
+        //注册服务名称
+        $rpcConfig->setServiceName('ser1');
+
+        $rpc1 = new \EasySwoole\Rpc\Rpc($rpcConfig);
+        //注册响应方法
+        $rpc1->registerAction('call1', function (\EasySwoole\Rpc\Request $request, \EasySwoole\Rpc\Response $response) {
+            //获取请求参数
+            var_dump($request->getArg());
+            //设置返回给客户端信息
+            $response->setMessage('response');
+        });
+        //监听/广播 rpc 自定义进程对象
+        $autoFindProcess = $rpc1->autoFindProcess('es_rpc_process_1');
+        //增加自定义进程去监听/广播服务
+        ServerManager::getInstance()->getSwooleServer()->addProcess($autoFindProcess->getProcess());
+        //起一个子服务去运行rpc
+        ServerManager::getInstance()->addServer('rpc1',9504);
+        $rpc1->attachToServer(ServerManager::getInstance()->getSwooleServer('rpc1'));
+       /*  $subPort = ServerManager::getInstance()->getSwooleServer()->addListener('0.0.0.0',9504,SWOOLE_TCP);
+        $subPort->on('receive',function (\swoole_server $server, int $fd, int $reactor_id, string $data){
+            var_dump($data);
+        }); */
          // 开始一个定时任务计划 
-        Crontab::getInstance()->addTask(TaskOne::class);
+        //Crontab::getInstance()->addTask(TaskOne::class);
         /* $register->add($register::onWorkerStart, function (\swoole_server $server, int $workerId) {
             if ($server->taskworker == false) {
                 //每个worker进程都预创建连接
