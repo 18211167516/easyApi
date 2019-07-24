@@ -20,6 +20,8 @@ use EasySwoole\EasySwoole\Crontab\Crontab;
 use App\Crontab\TaskOne;
 use EasySwoole\EasySwoole\Config;
 use App\Utility\Pool\MysqlPool;
+use App\Template\Smarty;
+use EasySwoole\Template\Render;
 class EasySwooleEvent implements Event
 {
 
@@ -34,6 +36,8 @@ class EasySwooleEvent implements Event
 
     public static function mainServerCreate(EventRegister $register)
     {
+        Render::getInstance()->getConfig()->setRender(new Smarty());
+        Render::getInstance()->attachServer(ServerManager::getInstance()->getSwooleServer());
         // TODO: Implement mainServerCreate() method.
         //$myProcess = new Process("ProcessBai",time(),false,2,true);
         //ServerManager::getInstance()->getSwooleServer()->addProcess($myProcess->getProcess());

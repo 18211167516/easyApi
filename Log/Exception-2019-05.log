@@ -83,3 +83,4 @@
 [2019-05-16 16:53:10][Exception][file:/var/www/html/easySwoole/App/HttpController/test.php][line:27]Call to undefined method App\Utility\Pool\RedisPool::get()
 [2019-05-16 16:54:40][Exception][file:/var/www/html/easySwoole/vendor/easyswoole/http/src/Response.php][line:76]Argument 1 passed to EasySwoole\Http\Response::write() must be of the type string, null given, called in /var/www/html/easySwoole/App/HttpController/test.php on line 28
 [2019-05-16 16:59:00][Exception][file:/var/www/html/easySwoole/App/HttpController/test.php][line:38]Call to a member function get() on null
+[2019-05-28 15:52:25][Exception][file:/var/www/html/easySwoole/vendor/easyswoole/mysqli/src/Mysqli.php][line:117]connect to root@192.168.99.100 at port 3307 fail: 1130 Host '172.18.0.1' is not allowed to connect to this MySQL server

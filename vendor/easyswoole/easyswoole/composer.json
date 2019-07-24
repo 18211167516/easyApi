@@ -18,12 +18,9 @@
         "easyswoole/spl": "^1.0",
         "easyswoole/http": "^1.0",
         "easyswoole/utility": "^1.0",
-        "jeremeamia/SuperClosure": "^2.4",
-        "easyswoole/trace": "^1.0",
-        "easyswoole/socket": "^1.0",
-        "dragonmantank/cron-expression": "^2.2",
-        "easyswoole/console": "^1.0",
-        "easyswoole/mysqli": "^1.1"
+        "jeremeamia/superclosure": "^2.4",
+        "easyswoole/trigger": "^1.0",
+        "dragonmantank/cron-expression": "^2.2"
     },
     "require-dev": {
         "easyswoole/swoole-ide-helper": "^1.2"

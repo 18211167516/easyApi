@@ -42,7 +42,28 @@ class Test extends Base
     function user()
     {
         //记录输出错误
-        Trigger::getInstance()->error('test error');
+        //Trigger::getInstance()->error('test error');
         $this->response()->write('user');
+    }
+
+    function gotest(){
+        $arr = \co::getaddrinfo("www.baidu.com");
+        $this->response()->write(json_encode($arr));
+        /* \go(function() {
+            \go(function () {
+                //\co::sleep(3.0);
+                \go(function () {
+                    \co::sleep(0.001);
+                    echo "co[3] end\n";
+                    var_dump(\Co::getPcid());
+                    var_dump(\Co::exists(\Co::getPcid())); // 1: true
+                });
+                //\co::sleep(0.002);
+                echo "co[2] end\n";
+            });
+        
+            //\co::sleep(2.0);
+            echo "co[1] end\n";
+        }); */
     }
 }

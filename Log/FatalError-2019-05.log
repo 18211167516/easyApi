@@ -75,3 +75,19 @@ Stack trace:
 #2 /var/www/html/easySwoole/vendor/easyswoole/easyswoole/src/Command/CommandContainer.php(44): EasySwoole\EasySwoole\Command\DefaultCommand\Start->exec(Array)
 #3 /var/www/html/easySwoole/vendor/easyswoole/easyswoole/src/Command/CommandRunner.php(52): EasySwoole\EasySwoole\Command\CommandContainer->hook('start', Array)
 #4 /var/www/html/easySwoole/easyswoole(20): EasySwoole\EasySwoole\Command\CommandRunner->
+[2019-05-31 15:26:32][FatalError][file:/var/www/html/easySwoole/vendor/easyswoole/easyswoole/src/Command/DefaultCommand/Phar.php][line:31]Uncaught UnexpectedValueException: creating archive "easyswoole.phar" disabled by the php.ini setting phar.readonly in /var/www/html/easySwoole/vendor/easyswoole/easyswoole/src/Command/DefaultCommand/Phar.php:31
+Stack trace:
+#0 /var/www/html/easySwoole/vendor/easyswoole/easyswoole/src/Command/DefaultCommand/Phar.php(31): Phar->__construct('easyswoole.phar')
+#1 /var/www/html/easySwoole/vendor/easyswoole/easyswoole/src/Command/CommandContainer.php(44): EasySwoole\EasySwoole\Command\DefaultCommand\Phar->exec(Array)
+#2 /var/www/html/easySwoole/vendor/easyswoole/easyswoole/src/Command/CommandRunner.php(52): EasySwoole\EasySwoole\Command\CommandContainer->hook('phar', Array)
+#3 /var/www/html/easySwoole/easyswoole(20): EasySwoole\EasySwoole\Command\CommandRunner->run(Array)
+#4 {main}
+  thrown
+[2019-05-31 15:29:44][FatalError][file:/var/www/html/easySwoole/vendor/easyswoole/easyswoole/src/Command/DefaultCommand/Phar.php][line:31]Uncaught UnexpectedValueException: creating archive "easyswoole.phar" disabled by the php.ini setting phar.readonly in /var/www/html/easySwoole/vendor/easyswoole/easyswoole/src/Command/DefaultCommand/Phar.php:31
+Stack trace:
+#0 /var/www/html/easySwoole/vendor/easyswoole/easyswoole/src/Command/DefaultCommand/Phar.php(31): Phar->__construct('easyswoole.phar')
+#1 /var/www/html/easySwoole/vendor/easyswoole/easyswoole/src/Command/CommandContainer.php(44): EasySwoole\EasySwoole\Command\DefaultCommand\Phar->exec(Array)
+#2 /var/www/html/easySwoole/vendor/easyswoole/easyswoole/src/Command/CommandRunner.php(52): EasySwoole\EasySwoole\Command\CommandContainer->hook('phar', Array)
+#3 /var/www/html/easySwoole/easyswoole(20): EasySwoole\EasySwoole\Command\CommandRunner->run(Array)
+#4 {main}
+  thrown

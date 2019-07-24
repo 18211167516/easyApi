@@ -783,3 +783,4 @@
 [2019-05-10 15:13:00][Warning][file:/var/www/html/easySwoole/vendor/easyswoole/easyswoole/src/ServerManager.php][line:109]Swoole\Server::start(): Using Xdebug in coroutines is extremely dangerous, please notice that it may lead to coredump!
 [2019-05-10 15:14:00][Warning][file:/var/www/html/easySwoole/vendor/easyswoole/easyswoole/src/ServerManager.php][line:109]Swoole\Server::start(): Using Xdebug in coroutines is extremely dangerous, please notice that it may lead to coredump!
 [2019-05-10 15:15:01][Warning][file:/var/www/html/easySwoole/vendor/easyswoole/easyswoole/src/ServerManager.php][line:109]Swoole\Server::start(): Using Xdebug in coroutines is extremely dangerous, please notice that it may lead to coredump!
+[2019-05-28 18:38:35][Warning][file:/var/www/html/easySwoole/vendor/easyswoole/easyswoole/src/Command/DefaultCommand/Stop.php][line:40]Swoole\Process::kill(): swKill(0, 0) failed, Error: Success[0]

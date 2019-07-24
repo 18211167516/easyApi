@@ -24,9 +24,10 @@ class Router extends AbstractRouter
         });
         // TODO: Implement initialize() method.
         $routeCollector->get('/user','/Test/user');
-        $routeCollector->get('/test','/test/index');
+        $routeCollector->get('/test','/Test/index');
         $routeCollector->get('/redis','Test/getRedis');
         $routeCollector->get('/test/redis','Test/getRedis2');
+        $routeCollector->get('/test/go','Test/gotest');
         $routeCollector->get('/', '/Index/index');
         /* $routeCollector->get('/aaa',function(Request $request,Response $response){
             $response->redirect('/user');

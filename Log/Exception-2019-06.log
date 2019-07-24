@@ -1,0 +1,20 @@
+[2019-06-06 16:08:28][Exception][file:/var/www/html/easySwoole/App/HttpController/Test.php][line:50]Class 'App\HttpController\co' not found
+[2019-06-06 16:08:37][Exception][file:/var/www/html/easySwoole/vendor/easyswoole/mysqli/src/Mysqli.php][line:117]connect to root@192.168.99.100 at port 3307 fail: 110 connect timeout
+[2019-06-12 18:17:32][Exception][file:/var/www/html/easySwoole/App/HttpController/Index.php][line:16]Class 'App\HttpController\Render' not found
+[2019-06-12 18:19:27][Exception][file:/var/www/html/easySwoole/vendor/easyswoole/http/src/Response.php][line:76]Argument 1 passed to EasySwoole\Http\Response::write() must be of the type string, null given, called in /var/www/html/easySwoole/App/HttpController/Index.php on line 19
+[2019-06-12 18:19:49][Exception][file:/var/www/html/easySwoole/vendor/easyswoole/http/src/Response.php][line:76]Argument 1 passed to EasySwoole\Http\Response::write() must be of the type string, null given, called in /var/www/html/easySwoole/App/HttpController/Index.php on line 19
+[2019-06-12 18:21:23][Exception][file:/var/www/html/easySwoole/App/HttpController/Index.php][line:17]Class 'App\Tmpplate\Smarty' not found
+[2019-06-12 18:21:49][Exception][file:/var/www/html/easySwoole/App/Template/Smarty.php][line:25]syntax error, unexpected 'y' (T_STRING), expecting ',' or ')'
+[2019-06-12 18:25:04][Exception][file:/var/www/html/easySwoole/App/HttpController/Index.php][line:18]Call to undefined function App\HttpController\setRender()
+[2019-06-12 18:25:21][Exception][file:/var/www/html/easySwoole/App/Template/Smarty.php][line:25]syntax error, unexpected 'y' (T_STRING), expecting ',' or ')'
+[2019-06-12 18:25:46][Exception][file:/var/www/html/easySwoole/App/Template/Smarty.php][line:25]syntax error, unexpected 'y' (T_STRING), expecting ',' or ')'
+[2019-06-12 18:27:01][Exception][file:/var/www/html/easySwoole/App/HttpController/Index.php][line:18]Class 'App\Tmpplate\Smarty' not found
+[2019-06-12 18:29:57][Exception][file:/var/www/html/easySwoole/App/HttpController/Index.php][line:18]Class 'App\Tmpplate\Smarty' not found
+[2019-06-12 18:31:04][Exception][file:/var/www/html/easySwoole/App/HttpController/Index.php][line:18]Class 'App\Tmpplate\Smarty' not found
+[2019-06-12 18:31:45][Exception][file:/var/www/html/easySwoole/App/HttpController/Index.php][line:18]Class 'App\Tmpplate\Smarty' not found
+[2019-06-12 18:32:09][Exception][file:/var/www/html/easySwoole/App/HttpController/Index.php][line:18]Class 'App\Tmpplate\Smarty' not found
+[2019-06-12 18:32:45][Exception][file:/var/www/html/easySwoole/App/Template/Smarty.php][line:25]syntax error, unexpected 'y' (T_STRING), expecting ',' or ')'
+[2019-06-12 18:33:25][Exception][file:/var/www/html/easySwoole/App/Template/Smarty.php][line:25]syntax error, unexpected 'y' (T_STRING), expecting ',' or ')'
+[2019-06-12 18:33:46][Exception][file:/var/www/html/easySwoole/App/Template/Smarty.php][line:25]syntax error, unexpected 'y' (T_STRING), expecting ',' or ')'
+[2019-06-12 18:34:25][Exception][file:/var/www/html/easySwoole/App/HttpController/Index.php][line:18]Class 'App\Template\Smarty' not found
+[2019-06-12 18:35:49][Exception][file:/var/www/html/easySwoole/vendor/easyswoole/http/src/Response.php][line:76]Argument 1 passed to EasySwoole\Http\Response::write() must be of the type string, null given, called in /var/www/html/easySwoole/App/HttpController/Index.php on line 21
