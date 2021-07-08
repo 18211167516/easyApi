@@ -1,0 +1,8 @@
+[2019-06-17 17:38:20][DEBUG][NOTICE] : [Undefined variable: reply at file:/var/www/html/easySwoole/vendor/easyswoole/template/src/RenderProcess.php line:31]
+[2019-06-17 17:38:20][DEBUG][NOTICE] : [Return value of App\Template\Smarty::onException() must be of the type string, none returned at file:/var/www/html/easySwoole/App/Template/Smarty.php line:34 at file:/var/www/html/easySwoole/vendor/easyswoole/template/src/RenderProcess.php line:43]
+[2019-06-17 17:38:23][DEBUG][ERROR] : [Class 'App\HttpController\Trigger' not found at file:/var/www/html/easySwoole/App/HttpController/AdminBase.php line:34]
+[2019-06-17 17:39:15][DEBUG][NOTICE] : [Undefined variable: reply at file:/var/www/html/easySwoole/vendor/easyswoole/template/src/RenderProcess.php line:31]
+[2019-06-17 17:39:15][DEBUG][NOTICE] : [Return value of App\Template\Smarty::onException() must be of the type string, none returned at file:/var/www/html/easySwoole/App/Template/Smarty.php line:34 at file:/var/www/html/easySwoole/vendor/easyswoole/template/src/RenderProcess.php line:43]
+[2019-06-17 17:39:18][DEBUG][ERROR] : [Argument 1 passed to EasySwoole\Http\Response::write() must be of the type string, null given, called in /var/www/html/easySwoole/App/HttpController/AdminBase.php on line 19 at file:/var/www/html/easySwoole/vendor/easyswoole/http/src/Response.php line:76]
+[2019-06-17 17:43:25][DEBUG][ERROR] : [Call to undefined method EasySwoole\Template\Render::display() at file:/var/www/html/easySwoole/App/HttpController/AdminBase.php line:24]
+[2019-06-17 17:47:14][DEBUG][ERROR] : [Call to undefined method EasySwoole\Template\Render::display() at file:/var/www/html/easySwoole/App/HttpController/AdminBase.php line:24]

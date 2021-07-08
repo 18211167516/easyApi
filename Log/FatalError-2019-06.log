@@ -1,0 +1,11 @@
+[2019-06-11 14:58:27][FatalError][file:/var/www/html/easySwoole/App/HttpController/Test.php][line:45]test error
+[2019-06-11 14:58:44][FatalError][file:/var/www/html/easySwoole/App/HttpController/Test.php][line:45]test error
+[2019-06-11 16:56:31][FatalError][file:/var/www/html/easySwoole/vendor/easyswoole/easyswoole/src/ServerManager.php][line:55]Uncaught Swoole\Exception: failed to listen server port[0.0.0.0:9508], Error: Address already in use[98] in /var/www/html/easySwoole/vendor/easyswoole/easyswoole/src/ServerManager.php:55
+Stack trace:
+#0 /var/www/html/easySwoole/vendor/easyswoole/easyswoole/src/ServerManager.php(55): Swoole\Server->__construct('0.0.0.0', 9508, 2, 1)
+#1 /var/www/html/easySwoole/vendor/easyswoole/easyswoole/src/Core.php(119): EasySwoole\EasySwoole\ServerManager->createSwooleServer(9508, 2, '0.0.0.0', Array, 2, 1)
+#2 /var/www/html/easySwoole/vendor/easyswoole/easyswoole/src/Command/DefaultCommand/Start.php(42): EasySwoole\EasySwoole\Core->createServer()
+#3 /var/www/html/easySwoole/vendor/easyswoole/easyswoole/src/Command/CommandContainer.php(44): EasySwoole\EasySwoole\Command\DefaultCommand\Start->exec(Array)
+#4 /var/www/html/easySwoole/vendor/easyswoole/easyswoole/src/Command/CommandRunner.php(52): EasySwoole\EasySwoole\Command\CommandContainer->hook('start', Array)
+#5 /var/www/html/easySwoole/easyswoole(20): EasySwoole\EasySwoo
+[2019-06-12 18:45:08][FatalError][file:/var/www/html/easySwoole/vendor/easyswoole/template/src/RenderProcessConfig.php][line:9]Class 'EasySwoole\Component\Process\Socket\UnixProcessConfig' not found
